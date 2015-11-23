@@ -24,4 +24,9 @@ puts fish_3.name
 
 fishes = [fish_1, fish_2, fish_3]
 river = River.new(fishes)
-puts river.class
+
+# Classes working together
+
+puts "Before taking a fish, #{bear_1.name}'s food is #{bear_1.food}"
+bear_1.take_fish_from(river)
+puts "After taking a fish, #{bear_1.name}'s food is #{bear_1.food}"
