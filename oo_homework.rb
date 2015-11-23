@@ -28,5 +28,8 @@ class Fish
 end
 
 class River
+  def initialize(input_fishes)
+    @fishes = input_fishes
+  end
 end
 
